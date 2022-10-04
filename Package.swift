@@ -4,10 +4,10 @@
 import PackageDescription
 
 let package = Package(
-  name: "DashCryptoSwift",
+  name: "DashCrypto",
   platforms: [.iOS(.v10)],
   products: [
-    .library(name: "DashCryptoSwift",
+    .library(name: "DashCrypto",
              targets: ["BlsKit", "X11Kit"])
   ],
   targets: [
